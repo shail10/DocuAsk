@@ -28,7 +28,7 @@ Developed as a mid-term project for **CSCI 5411 – Advanced Cloud Architecting*
 
 ## 🧱 Architecture Diagram
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](docuask.jpg)
 
 > 📝 The architecture diagram illustrates the full serverless pipeline, from file upload to semantic Q&A using SageMaker and Pinecone.
 
