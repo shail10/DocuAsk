@@ -1,0 +1,91 @@
+.chat-wrapper {
+  height: 100%;
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: sans-serif;
+}
+
+/* Chat body background */
+.cs-main-container {
+  background-color: #121212 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Message area */
+.cs-message-list {
+  background-color: #121212 !important;
+  padding: 16px;
+}
+
+/* Incoming messages */
+.cs-message--incoming .cs-message__content {
+  background-color: #2a2a2a !important;
+  color: #ffffff !important;
+  border-radius: 12px !important;
+  padding: 10px 14px !important;
+}
+
+/* Outgoing messages */
+.cs-message--outgoing .cs-message__content {
+  background-color: #005fff !important;
+  color: #ffffff !important;
+  border-radius: 12px !important;
+  padding: 10px 14px !important;
+}
+
+/* Message input container */
+.cs-message-input {
+  background-color: #1f1f1f !important;
+  border-top: 1px solid #333 !important;
+}
+
+/* Outer wrapper of input */
+.cs-message-input__content {
+  background-color: #1f1f1f !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Input field */
+.cs-message-input__content-editor {
+  background-color: #1f1f1f !important;
+  color: #fff !important;
+  outline: none !important;
+  box-shadow: none !important;
+  padding: 12px 14px !important;
+  font-size: 15px !important;
+}
+
+/* Kill focus ring on editable div */
+.cs-message-input__content-editor div[contenteditable='true'] {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background-color: #1f1f1f !important;
+  color: white !important;
+}
+
+.cs-message-input__content-editor div[contenteditable='true']:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Just in case any other weird focus is left */
+.cs-message-input__content-editor:focus,
+.cs-message-input__content:focus,
+.cs-message-input__content *:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.cs-message-input__content-editor-wrapper {
+  background-color: #1f1f1f !important;
+  border-radius: 8px !important;
+  padding: 12px 14px !important;
+  box-shadow: none !important;
+  border: none !important;
+}

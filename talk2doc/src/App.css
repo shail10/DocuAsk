@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background-color: #0a0a0a;
+  color: #f1f1f1;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #121212;
+  color: #fff;
+}
+
+.app-header {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+  background-color: #1a1a1a;
+  color: #00b4d8;
+}
+
+.app-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* LEFT PANEL */
+.left-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.upload-box {
+  border: 2px dashed #666;
+  border-radius: 8px;
+  padding: 3rem;
+  text-align: center;
+  color: #999;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.upload-box:hover {
+  background-color: #1a1a1a;
+  color: #ddd;
+}
+
+.pdf-viewer-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.pdf-scroll-area {
+  flex: 1;
+  overflow-y: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* PDF canvas */
+.react-pdf__Page {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+.react-pdf__Page__canvas {
+  display: block;
+  max-width: 100%;
+  height: auto !important;
+  margin: 0 auto;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.react-pdf__Page__textContent {
+  display: none;
+}
+
+/* PDF Controls */
+.pdf-controls {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.pdf-controls button {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pdf-controls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* RIGHT PANEL */
+.right-panel {
+  flex: 1;
+  background-color: #000;
+  padding: 1rem;
+  overflow-y: auto;
+  border-left: 1px solid #222;
+}
+
+.chat-placeholder {
+  text-align: center;
+  color: #777;
+  font-size: 1rem;
+  margin-top: 5rem;
+}
+
+.doc-id {
+  font-size: 0.9rem;
+  color: #4ade80;
+  word-break: break-word;
+  margin-bottom: 2rem;
+}
+
+.react-pdf__Page__annotations {
+  height: auto !important;
+  max-height: 100% !important;
+  overflow: hidden !important;
+}
+
+.load-button-wrapper {
+  margin-bottom: 16px; /* or 24px for more space */
+  margin-left: 5px;
+}
