@@ -51,7 +51,7 @@ Developed as a mid-term project for **CSCI 5411 – Advanced Cloud Architecting*
 
 ## 🧑‍💻 Author
 
-**Shail Rajeshbhai Kardani**  
+**Shail Kardani**  
 
 ---
 
